@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 #navBar-modelS {
   background-color: transparent;
 }
@@ -21,6 +22,7 @@
   margin-right: 550px;
   position: fixed;
 }
+
 .modelS-div-content:hover {
   border-radius: 12px;
   background-color: rgba(104, 104, 104, 0.1);
@@ -405,4 +407,282 @@ button {
   white-space: nowrap;
   margin: 10px;
   color: rgb(71, 71, 71);
+}
+
+@media only screen and (max-width: 600px) {
+  .modelS-div-content {
+    display: none;
+  }
+  .model3-div-content {
+    display: none;
+  }
+  .modelX-div-content {
+    display: none;
+  }
+  .modelY-div-content {
+    display: none;
+  }
+  .solarRoof-content {
+    display: none;
+  }
+  .solarPanels-content {
+    display: none;
+  }
+  .shop-content {
+    display: none;
+  }
+  .account-content {
+    display: none;
+  }
+  .menu-content {
+    padding-right: 1001px;
+  }
+  .bottom-content {
+    display: none;
+  }
+  .tesla3-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/9160c5a3-b818-42dd-bb98-b8597948c636/bvlatuR/std/1927x4096/M3-Homepage-Mobile-LHD");
+    height: 667px;
+  }
+  .models {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .custom-order-div {
+    margin-top: -168px;
+    font-size: 10px;
+  }
+
+  .teslaY-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/3304be3b-dd0a-4128-9c26-eb61c0b98d61/bvlatuR/std/0x0/3304be3b-dd0a-4128-9c26-eb61c0b98d61");
+    height: 667px;
+  }
+  .modelY {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .teslaS-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8138ba80-06f8-4bda-8bcd-a076a44b00f7/bvlatuR/std/1928x4096/Homepage-Model-S-Mobile-LHD");
+    height: 667px;
+  }
+  .modelS {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .teslaX-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/7d0fc315-dd4c-42f3-b9e1-a98f488f1e9a/bvlatuR/std/1927x4096/Homepage-Model-X-Mobile-LHD");
+    height: 667px;
+  }
+  .modelX {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .solarpanels-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/066f19b7-d68e-45e2-8575-ad0a6f8375a8/bvlatuR/std/600x1576/_25-HP-SolarPanels-M");
+    height: 667px;
+  }
+  .solarpanels {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .order-now-div {
+    margin-top: -168px;
+    font-size: 10px;
+  }
+  .solarroof-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/20c666b9-d09b-4687-bb37-22c8500489c5/bvlatuR/std/750x850/HP-SR-Design-M");
+    height: 667px;
+  }
+  .solar-roof {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .accessories-background {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/69095129-86c5-4f6c-a77a-740ceac04e82/bvlatuR/std/0x0/69095129-86c5-4f6c-a77a-740ceac04e82");
+    height: 667px;
+  }
+  #accessories {
+    padding-top: 90px;
+    font-size: 27px;
+  }
+  .shop-now-div {
+    margin-top: -168px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .modelS-div-content {
+    display: none;
+  }
+  .model3-div-content {
+    display: none;
+  }
+  .model3-div-content {
+    display: none;
+  }
+  .modelX-div-content {
+    display: none;
+  }
+  .modelY-div-content {
+    display: none;
+  }
+  .solarPanels-content {
+    display: none;
+  }
+  .solarRoof-content {
+    display: none;
+  }
+  .shop-content {
+    display: none;
+  }
+  .account-content {
+    display: none;
+  }
+
+  .bottom-content {
+    display: none;
+  }
+  .tesla3-background {
+    height: 100vh;
+  }
+  .models {
+    padding-top: 130px;
+  }
+
+  .teslaS-background {
+    height: 100vh;
+  }
+  .modelS {
+    padding-top: 130px;
+  }
+
+  .teslaX-background {
+    height: 100vh;
+  }
+  .modelX {
+    padding-top: 130px;
+  }
+
+  .teslaY-background {
+    height: 100vh;
+  }
+  .modelY {
+    padding-top: 130px;
+  }
+
+  .solarpanels-background {
+    height: 100vh;
+  }
+  .solarpanels {
+    padding-top: 130px;
+  }
+  .order-now-div {
+    margin-top: -104px;
+  }
+
+  .accessories-background {
+    height: 100vh;
+  }
+  #accessories {
+    padding-top: 130px;
+  }
+  .shop-now-div {
+    margin-top: -50px;
+  }
+
+  .solarroof-background {
+    height: 100vh;
+  }
+  .solar-roof {
+    padding-top: 130px;
+  }
+
+  .custom-order-div {
+    margin-top: -128px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .modelS-div-content {
+    display: none;
+  }
+  .model3-div-content {
+    display: none;
+  }
+  .modelX-div-content {
+    display: none;
+  }
+  .modelY-div-content {
+    display: none;
+  }
+  .solarPanels-content {
+    display: none;
+  }
+  .solarRoof-content {
+    display: none;
+  }
+  .shop-content {
+    display: none;
+  }
+  .account-content {
+    display: none;
+  }
+  .menu-content {
+    margin-right: -1090px;
+  }
+  .tesla3-background {
+    height: 753px;
+  }
+  .models {
+    margin-top: -19px;
+  }
+  .custom-order-div {
+    margin-top: -99px;
+  }
+  .teslaS-background {
+    height: 753px;
+  }
+  .modelS {
+    margin-top: -19px;
+  }
+  .teslaX-background {
+    height: 753px;
+  }
+  .modelX {
+    margin-top: -19px;
+  }
+  .teslaY-background {
+    height: 753px;
+  }
+  .modelY {
+    margin-top: -19px;
+  }
+  .solarpanels-background {
+    height: 753px;
+  }
+  .solarpanels {
+    margin-top: -19px;
+  }
+  .solarroof-background {
+    height: 753px;
+  }
+  .solar-roof {
+    margin-top: -19px;
+  }
+  .order-now-div {
+    margin-top: -123px;
+  }
+  .accessories-background {
+    height: 753px;
+  }
+  #accessories {
+    margin-top: -19px;
+  }
+  .shop-now-div {
+    margin: -123px;
+  }
+  #bottom-div {
+    margin-left: 305px;
+  }
 }
